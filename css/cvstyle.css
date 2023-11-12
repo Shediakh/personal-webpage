@@ -1,0 +1,223 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.left-panel {
+    background-color:rgb(53,58,69);
+    width:20%;
+    height:160vh;
+    float:left;
+    color:white;
+    text-align:center;
+}
+
+div.right-panel {
+    width:80%;
+    float:left;
+    height:1000px;
+    color: rgb(49,49,49);
+}
+
+div.left-panel h1 {
+    text-align:center;
+}
+
+div.left-panel p.top {
+    font-size:25px;
+    text-align:center;
+}
+
+div.heading {
+    background-color:rgb(33,36,45);
+    height:45px;
+    margin-bottom:2%;
+}
+
+div.heading h2 {
+    display:inline-block;
+    margin-top:2%;
+}
+
+div.outer-bar {
+    background-color:rgb(33,36,45);
+    height:10px;
+    width:90%;
+    margin-left:5%;
+}
+
+div.inner-bar {
+    background-color:white;
+    height:100%;
+    width:50%;
+}
+
+div.right-panel hr {
+    width:95%;
+}
+
+div.right-panel h1 {
+    margin-left:2.5%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+div.right-panel p {
+    margin-left:2.5%;
+    margin-right:2.5%;
+    /* font-size:19px; */
+}
+
+p {
+    font-size:19px;
+}
+strong{
+    font-size:19px;
+}
+
+div.left-panel.right {
+    background-color:white;
+    color:black;
+    height:500px;
+}
+
+div.right-panel.right h2 {
+    /* margin:0; */
+    display:inline-block;
+    margin-left:25px;
+    margin-top:25px;
+}
+
+div.right-panel.right p {
+    margin-top:0;
+}
+
+div.right-panel.right strong {
+    margin-left:2.5%;
+}
+
+div.left-panel.right p {
+    margin:25px;
+}
+
+div.right-panel.right {
+    /* background-color:green; */
+    height:500px;
+}
+
+div.right-panel.right ul li {
+    font-size:19px;
+    margin:10px;
+}
+
+a {
+    text-decoration:none;
+    color:white;    
+}
+
+a:hover {
+    color:rgb(208, 204, 204);
+}
+
+p.institute {
+    font-weight:bold;
+}
+
+
+div.gallery {
+    /* margin-top:200px; */
+    width:100%;
+    /* background-color:red; */
+    height:100%;
+    /* margin-top:7%;
+    border-top: 10px solid black; */
+}
+
+.burger-img {
+    height:8%;
+    margin-left:2%;
+    margin-top:-40%;
+    display:inline-block;
+    float:left;
+}
+
+.nav-bar {
+    /* background-color:red; */
+    width:91.5%;
+    height:10%;
+    float:left;
+}
+
+h2.bar-title {
+    /* text-align:center; */
+    /* margin-left:42.5%; */
+    font-size:2vw;
+    
+    margin-top:-1%;
+    display:inline-block;
+}
+
+nav ul a {
+    text-decoration:none;
+    color:black;
+}
+
+nav ul {
+    margin-left:-2.08%;
+    margin-top:-0.5%;
+}
+
+nav ul li {
+    list-style-type:none;
+    text-align:center;
+    width:100%;
+    float:right;    
+    font-size:1.5vw;
+    /* margin-right:0.5%; */
+    /* background-color:red; */
+    color:black;
+    /* padding:2%; */
+    /* margin-right:2.5%; */
+    border-bottom:1px solid grey;
+    padding-top:2%;
+    padding-bottom:2%;
+    transition:background-color 500ms;
+}
+
+nav ul li:hover {
+    background-color:rgb(242, 240, 240);
+}
+
+#drop {
+    transition: 3s transform;
+    display:none;
+    /* height:70px;
+    width:70px; */
+}
+
+
+
+input[type="checkbox"] {
+    height:70px;
+    width:70px;
+    margin-bottom:0;
+    margin-top:1%;
+    /* margin-left:-40%; */
+    opacity:0;
+    display:block-inline;
+}
+
+input[type="checkbox"]:hover {
+    cursor:pointer;
+    
+
+}
+
+input[type="checkbox"]:checked  +div + h2 +hr+ ul#drop {
+    transform:scale(10, 10);
+    display:contents;
+}
+.burger-wrapper {
+    width:10%;
+    
+}
